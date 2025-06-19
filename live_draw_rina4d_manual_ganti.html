@@ -1,0 +1,485 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>LIVE DRAW RINA4D</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #00ffff;
+      text-shadow: 1px 1px 3px black;
+    }
+    #bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      overflow-y: auto;
+      height: 100vh;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+    .pasaran-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+    }
+    .pasaran-item {
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 4px;
+      padding: 8px 6px;
+      text-align: center;
+      min-width: 110px;
+      font-size: 13px;
+      border: 1px solid #00ffff44;
+    }
+    .hasil img {
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <video autoplay muted loop playsinline id="bg-video">
+    <source src="https://files.catbox.moe/jnhopn.mp4" type="video/mp4">
+  </video>
+  <div class="overlay">
+    <h1>LIVE DRAW TERLENGKAP HANYA DI RINA4D</h1>
+    <div class="pasaran-container">
+
+      <div class="pasaran-item">
+        <strong>CHONBURI</strong>
+        <div class="hasil">
+          <img id="img0" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>OCEANIA</strong>
+        <div class="hasil">
+          <img id="img1" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>OREGON09</strong>
+        <div class="hasil">
+          <img id="img2" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>JOWO01</strong>
+        <div class="hasil">
+          <img id="img3" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>BENIN</strong>
+        <div class="hasil">
+          <img id="img4" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>JUVENTUS</strong>
+        <div class="hasil">
+          <img id="img5" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>OREGON10</strong>
+        <div class="hasil">
+          <img id="img6" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>MALADEWA</strong>
+        <div class="hasil">
+          <img id="img7" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>OREGON11</strong>
+        <div class="hasil">
+          <img id="img8" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>PHILIPPINA</strong>
+        <div class="hasil">
+          <img id="img9" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>LEEDS</strong>
+        <div class="hasil">
+          <img id="img10" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>CAMBODIA</strong>
+        <div class="hasil">
+          <img id="img11" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>OREGON12</strong>
+        <div class="hasil">
+          <img id="img12" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>GABON</strong>
+        <div class="hasil">
+          <img id="img13" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>TOTOMACAU01</strong>
+        <div class="hasil">
+          <img id="img14" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>SYDNEY</strong>
+        <div class="hasil">
+          <img id="img15" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>JAKARTA01</strong>
+        <div class="hasil">
+          <img id="img16" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>TOSHIMA</strong>
+        <div class="hasil">
+          <img id="img17" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>SPANYOL</strong>
+        <div class="hasil">
+          <img id="img18" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>TEXAS4D</strong>
+        <div class="hasil">
+          <img id="img19" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>TOTOMACAU5DP1</strong>
+        <div class="hasil">
+          <img id="img20" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>SYDNEYEVEN</strong>
+        <div class="hasil">
+          <img id="img21" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>CHINA</strong>
+        <div class="hasil">
+          <img id="img22" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>BELARUSIA</strong>
+        <div class="hasil">
+          <img id="img23" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>TOTOMACAU02</strong>
+        <div class="hasil">
+          <img id="img24" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>JAPAN</strong>
+        <div class="hasil">
+          <img id="img25" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>KINGKONG</strong>
+        <div class="hasil">
+          <img id="img26" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>SINGAPORE</strong>
+        <div class="hasil">
+          <img id="img27" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>JAPANEVEN</strong>
+        <div class="hasil">
+          <img id="img28" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>TOTOMACAU03</strong>
+        <div class="hasil">
+          <img id="img29" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>CHONBURINIGHT</strong>
+        <div class="hasil">
+          <img id="img30" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>LESOTHO</strong>
+        <div class="hasil">
+          <img id="img31" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>HEBEI</strong>
+        <div class="hasil">
+          <img id="img32" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>HONGKONGEVEN</strong>
+        <div class="hasil">
+          <img id="img33" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>EROPALOTTO</strong>
+        <div class="hasil">
+          <img id="img34" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>TAIWAN</strong>
+        <div class="hasil">
+          <img id="img35" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>JOWO02</strong>
+        <div class="hasil">
+          <img id="img36" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>TOTOMACAU5DP2</strong>
+        <div class="hasil">
+          <img id="img37" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>MACAUEVEN</strong>
+        <div class="hasil">
+          <img id="img38" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>TOTOMACAU04</strong>
+        <div class="hasil">
+          <img id="img39" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>HONGKONG</strong>
+        <div class="hasil">
+          <img id="img40" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>TOTOMACAU05</strong>
+        <div class="hasil">
+          <img id="img41" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>KINGKONGPOOLS</strong>
+        <div class="hasil">
+          <img id="img42" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>JAKARTA02</strong>
+        <div class="hasil">
+          <img id="img43" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>SGPNIGHT</strong>
+        <div class="hasil">
+          <img id="img44" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>TOTOMACAU06</strong>
+        <div class="hasil">
+          <img id="img45" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>SYDNEYNIGHT</strong>
+        <div class="hasil">
+          <img id="img46" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>CAMBODIANIGHT</strong>
+        <div class="hasil">
+          <img id="img47" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>BRAZILNIGHT</strong>
+        <div class="hasil">
+          <img id="img48" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>MACAUNIGHT</strong>
+        <div class="hasil">
+          <img id="img49" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>OREGON01</strong>
+        <div class="hasil">
+          <img id="img50" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>CHINANIGHT</strong>
+        <div class="hasil">
+          <img id="img51" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>WATFORD</strong>
+        <div class="hasil">
+          <img id="img52" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>OREGON02</strong>
+        <div class="hasil">
+          <img id="img53" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>MILLWALL</strong>
+        <div class="hasil">
+          <img id="img54" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>MAGNUM</strong>
+        <div class="hasil">
+          <img id="img55" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>EIBAR</strong>
+        <div class="hasil">
+          <img id="img56" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>LOKOMOTIV</strong>
+        <div class="hasil">
+          <img id="img57" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>OREGON03</strong>
+        <div class="hasil">
+          <img id="img58" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>VIENNA</strong>
+        <div class="hasil">
+          <img id="img59" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>OREGON04</strong>
+        <div class="hasil">
+          <img id="img60" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>ASCOLI</strong>
+        <div class="hasil">
+          <img id="img61" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>OREGON05</strong>
+        <div class="hasil">
+          <img id="img62" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>ZIMBABWE</strong>
+        <div class="hasil">
+          <img id="img63" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>OREGON06</strong>
+        <div class="hasil">
+          <img id="img64" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>CAMBODIA06</strong>
+        <div class="hasil">
+          <img id="img65" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>OREGON07</strong>
+        <div class="hasil">
+          <img id="img66" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+      <div class="pasaran-item">
+        <strong>OREGON08</strong>
+        <div class="hasil">
+          <img id="img67" src="https://i.postimg.cc/SK5Fc4Rq/2ed291569e11e8120634c670c55cbe-unscreen.gif" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    // Cara pakai:
+    // Ganti 'img0', 'img1', ... sesuai index pasaran
+    // Ubah src dengan link angka PNG
+    // Contoh: document.getElementById("img0").src = "angka1234.png";
+
+    // Contoh manual (ganti sesuai kebutuhan):
+    // setTimeout(() => {
+    //   document.getElementById("img0").src = "https://example.com/angka1234.png";
+    // }, 3000);
+  </script>
+</body>
+</html>
